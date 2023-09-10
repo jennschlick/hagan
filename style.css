@@ -1,9 +1,58 @@
 /*
-Theme Name: Uncode Child
-Description: Child theme for Uncode theme
-Author: Undsgn™
-Author URI: http://www.undsgn.com
+Theme Name: Hagan
+Author: Hagan
 Template: uncode
 Version: 1.0.0
-Text Domain: uncode
 */
+
+/* Azo Sans */
+@import url('https://use.typekit.net/pjo1omb.css');
+
+html {
+  font-family: 'azo-sans-web', sans-serif !important;
+}
+
+/* Lowercase main menu */
+#menu-main-menu {
+	text-transform: lowercase;
+}
+
+/* Homepage */
+body.home .grid-container .tmb .t-entry-comments {
+	display: none !important;
+}
+
+body.home .grid-container .tmb .t-entry-text-tc.single-block-padding {
+	padding-top: 15px;
+}
+
+body.home .grid-container .tmb .t-entry-excerpt p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Footer */
+.site-footer table {
+	border-top-width: 0 !important;
+	border-right-width: 0 !important;
+	border-bottom-width: 0 !important;
+	border-left-width: 0 !important;
+	border: 0 !important;
+	width: 100% !important;
+}
+
+.site-footer table td {
+	border-top-width: 0 !important;
+	border-right-width: 0 !important;
+	border-bottom-width: 0 !important;
+	border-left-width: 0 !important;
+	border: 0 !important;
+	font-weight: 400 !important;
+	width: 50% !important;
+}
+
+@media (min-width: 960px) {
+	.site-footer table tr td:nth-child(2) {
+		text-align: right !important;
+	}
+}
