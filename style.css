@@ -5,22 +5,48 @@ Template: uncode
 Version: 1.0.0
 */
 
-/* Azo Sans */
+/*
+Typography
+*/
+
 @import url('https://use.typekit.net/pjo1omb.css');
 
 html {
   font-family: 'azo-sans-web', sans-serif !important;
 }
 
-/* Lowercase main menu */
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong {
+	font-weight: 400 !important;
+}
+
+/*
+Helpers
+*/
+
+.style-light a.link-orange {
+	color: #f89520 !important;
+}
+
+.style-light a.link-orange:hover {
+	color: #f89520 !important;
+}
+
+/*
+Main menu
+*/
+
 #menu-main-menu {
 	text-transform: lowercase;
 }
 
-/* Homepage */
-body.home .grid-container .tmb .t-entry-comments {
-	display: none !important;
-}
+/*
+Homepage
+*/
 
 body.home .grid-container .tmb .t-entry-text-tc.single-block-padding {
 	padding-top: 15px;
@@ -31,28 +57,62 @@ body.home .grid-container .tmb .t-entry-excerpt p {
 	line-height: 1.5;
 }
 
-/* Footer */
-.site-footer table {
-	border-top-width: 0 !important;
-	border-right-width: 0 !important;
-	border-bottom-width: 0 !important;
-	border-left-width: 0 !important;
-	border: 0 !important;
-	width: 100% !important;
+/* 
+Footer
+*/
+
+.site-footer .site-info {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
 }
 
-.site-footer table td {
-	border-top-width: 0 !important;
-	border-right-width: 0 !important;
-	border-bottom-width: 0 !important;
-	border-left-width: 0 !important;
-	border: 0 !important;
+.site-footer .site-info div {
+	width: 50%;
+}
+
+.site-footer .site-info div:nth-child(2) {
+	text-align: right;
+}
+
+.site-footer .fa-universal-access {
+	font-size: 30px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+/*
+Pagination
+*/
+
+.pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pagination > li {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.pagination .page-prev,
+.pagination .page-next {
+	height: 45px;
+}
+
+/*
+Blog
+*/
+
+.page-id-105541 .t-entry p.t-entry-meta span {
+	color: rgba(119, 119, 119, 0.65) !important;
+	font-size: 14px !important;
 	font-weight: 400 !important;
-	width: 50% !important;
+	lettering-spacing: 0.7px !important;
 }
 
-@media (min-width: 960px) {
-	.site-footer table tr td:nth-child(2) {
-		text-align: right !important;
-	}
+body.single-post .post-info .author-info,
+body.single-post .post-info .category-info {
+	display: none !important;
 }
