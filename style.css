@@ -48,14 +48,7 @@ Main menu
 Homepage
 */
 
-body.home .grid-container .tmb .t-entry-text-tc.single-block-padding {
-	padding-top: 15px;
-}
 
-body.home .grid-container .tmb .t-entry-excerpt p {
-	font-size: 16px;
-	line-height: 1.5;
-}
 
 /* 
 Footer
