@@ -24,6 +24,11 @@ h6 strong {
 	font-weight: 400 !important;
 }
 
+table td, 
+table th {
+	font-weight: 400 !important;
+}
+
 /*
 Helpers
 */
@@ -43,12 +48,6 @@ Main menu
 #menu-main-menu {
 	text-transform: lowercase;
 }
-
-/*
-Homepage
-*/
-
-
 
 /* 
 Footer
