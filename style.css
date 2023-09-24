@@ -113,6 +113,34 @@ Footer
 Homepage
 */
 
+body.home .vc_row.bird svg {
+	height: auto !important;
+	width: 80vw !important;
+}
+
+@media (min-width: 960px) {
+	body.home .vc_row.bird svg {
+		position: relative !important;
+		left: -40vw !important;
+	}
+}
+
+body.home .vc_row.bird svg path {
+  animation: dash 30s linear forwards;
+  stroke-dasharray: 100;
+	stroke-dashoffset: 100;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/*
+Testimonials
+*/
+
 .vc_row.testimonials {
 	padding: 60px 0 !important;
 }
@@ -145,7 +173,6 @@ Homepage
 .vc_row.testimonials .owl-next .owl-nav-container {
 	background-color: transparent !important;
 }
-
 
 /*
 Blog
