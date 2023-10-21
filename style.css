@@ -137,6 +137,16 @@ body.home .vc_row.bird svg path {
   }
 }
 
+body.home .vc_custom_heading_wrap .split-word-inner {
+	background: #f89520;
+	color: #fff;
+	padding: 0 5px;
+}
+
+body.home .vc_custom_heading_wrap .split-empty-inner {
+	display: none;
+}
+
 /*
 Testimonials
 */
@@ -153,6 +163,12 @@ Testimonials
 
 .vc_row.testimonials p {
 	color: #fff !important;
+}
+
+.vc_row.testimonials .uncode_text_column {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 30px;
 }
 
 .vc_row.testimonials .owl-dots {
@@ -172,6 +188,10 @@ Testimonials
 .vc_row.testimonials .owl-prev .owl-nav-container,
 .vc_row.testimonials .owl-next .owl-nav-container {
 	background-color: transparent !important;
+}
+
+.vc_row.testimonials .wpb_column {
+	padding-left: 0 !important;
 }
 
 /*
