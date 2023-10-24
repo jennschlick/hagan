@@ -147,11 +147,31 @@ body.home .header-wrapper .heading-text #hometypewriter {
 	color: #fff;
 	display: inline-block;
 	margin: 0 0 0 10px;
-	padding: 0 0 5px 5px;
+	padding: 0 0 5px 0;
 }
 
-body.home .vc_custom_heading_wrap .split-empty-inner {
-	display: none;
+body.home .header-wrapper .heading-text #hometypewriter .Typewriter__wrapper {
+	display: inline-block;
+	padding: 0 0 0 5px;
+}
+
+body.home .header-wrapper .heading-text #hometypewriter .Typewriter__wrapper span {
+
+	&:after {
+		background: url(img/heart.png);
+		background-position: center left;
+		background-repeat: no-repeat;
+		background-size: contain;
+		color: #fff;
+		content: '.';
+		display: inline-block;
+		height: 40px;
+		margin-right: 5px;
+		margin-left: 5px;
+		text-align: right;
+		vertical-align: middle;
+		width: 60px;
+	}
 }
 
 /*
