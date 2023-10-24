@@ -137,10 +137,17 @@ body.home .vc_row.bird svg path {
   }
 }
 
-body.home .vc_custom_heading_wrap .split-word-inner {
+body.home .header-wrapper .heading-text h2 span,
+body.home .header-wrapper .heading-text h2 span h1 {
+	display: inline;
+}
+
+body.home .header-wrapper .heading-text #hometypewriter {
 	background: #f89520;
 	color: #fff;
-	padding: 0 5px;
+	display: inline-block;
+	margin: 0 0 0 10px;
+	padding: 0 0 5px 5px;
 }
 
 body.home .vc_custom_heading_wrap .split-empty-inner {
