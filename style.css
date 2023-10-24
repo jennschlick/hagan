@@ -113,6 +113,12 @@ Footer
 Homepage
 */
 
+@media (max-width: 569px) {
+	body.home #page-header .uncell .uncont {
+		padding-top: 0;
+	}
+}
+
 body.home .vc_row.bird svg {
 	height: auto !important;
 	width: 80vw !important;
@@ -142,35 +148,35 @@ body.home .header-wrapper .heading-text h2 span h1 {
 	display: inline;
 }
 
-body.home .header-wrapper .heading-text #hometypewriter {
+body.home .header-wrapper .heading-text #typewriter {
 	background: #f89520;
 	color: #fff;
 	display: inline-block;
 	margin: 0 0 0 10px;
-	padding: 0 0 5px 0;
+	padding: 0 0 5px 5px;
 }
 
-body.home .header-wrapper .heading-text #hometypewriter .Typewriter__wrapper {
+body.home .header-wrapper .heading-text #typewriter .Typewriter__wrapper {
 	display: inline-block;
-	padding: 0 0 0 5px;
 }
 
-body.home .header-wrapper .heading-text #hometypewriter .Typewriter__wrapper span {
+body.home .header-wrapper .heading-text #typewriter .Typewriter__wrapper span {
 
 	&:after {
 		background: url(img/heart.png);
-		background-position: center left;
+		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: contain;
 		color: #fff;
-		content: '.';
+		content: '';
 		display: inline-block;
-		height: 40px;
+		height: 30px;
 		margin-right: 5px;
-		margin-left: 5px;
-		text-align: right;
+		margin-left: 10px;
+		position: relative;
+			top: -2px;
 		vertical-align: middle;
-		width: 60px;
+		width: 30px;
 	}
 }
 
