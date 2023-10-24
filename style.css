@@ -115,7 +115,7 @@ Homepage
 
 @media (max-width: 569px) {
 	body.home #page-header .uncell .uncont {
-		padding-top: 0;
+		padding-top: 0 !important;
 	}
 }
 
@@ -146,6 +146,11 @@ body.home .vc_row.bird svg path {
 body.home .header-wrapper .heading-text h2 span,
 body.home .header-wrapper .heading-text h2 span h1 {
 	display: inline;
+}
+
+body.home .header-wrapper .heading-text h1:not([class*="fontsize-"]),
+body.home .header-wrapper .heading-text .h1:not([class*="fontsize-"]) {
+	font-size: 39px !important;
 }
 
 body.home .header-wrapper .heading-text #typewriter {
