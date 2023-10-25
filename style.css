@@ -168,7 +168,7 @@ body.home .header-wrapper .heading-text #typewriter .Typewriter__wrapper {
 body.home .header-wrapper .heading-text #typewriter .Typewriter__wrapper span {
 
 	&:after {
-		background: url(img/heart.png);
+		background: url(img/heart.svg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: contain;
