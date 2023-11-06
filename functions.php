@@ -17,6 +17,8 @@ function theme_enqueue_styles()
 	wp_enqueue_style($parent_style, get_template_directory_uri() . '/library/css/style.css', array(), $resources_version);
 	wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', $child_style, $resources_version);
 
+	wp_enqueue_script('scripts', get_stylesheet_directory_uri() . '/js/scripts.js', '', '1.0', true);
+
 	if(is_front_page()) {
 	  wp_enqueue_script('typewriter-core', '//unpkg.com/typewriter-effect@2.3.1/dist/core', '', '1.0', true);
 	  wp_enqueue_script('typewriter', get_stylesheet_directory_uri() . '/js/typewriter.js', '', '1.0', true);
