@@ -36,6 +36,17 @@ blockquote cite {
 }
 
 /*
+Cursor
+*/
+
+#uncode-custom-cursor > span,
+#uncode-custom-cursor-pilot > span {
+	height: 30px !important;
+	opacity: .7 !important;
+	width: 30px !important;
+}
+
+/*
 Helpers
 */
 
