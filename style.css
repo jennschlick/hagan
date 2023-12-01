@@ -254,8 +254,7 @@ Blog
 	lettering-spacing: 0.7px !important;
 }
 
-body.single-post .post-info .author-info,
-body.single-post .post-info .category-info {
+body.single-post .post-info {
 	display: none !important;
 }
 
